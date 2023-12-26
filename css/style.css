@@ -1,0 +1,71 @@
+@import url('https://fonts.google.com/specimen/Sora?query=sora'); 
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #E5EAF0;
+}
+.card {
+    font-family: 'Sora',Arial, Helvetica, sans-serif;
+    width: 368px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 164px;
+}
+.card-title{
+    height: 152px;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.card-title > img{
+    background-size: cover;
+    height: 100%;
+    border-radius: 10px;
+}
+.card-body{
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 16px;
+}
+.card-body > span{
+    font-weight: bold;
+    font-size: 18px;
+    color:#20293A;
+}
+.card-body > p{
+    font-size: 14px;
+    color: #6C727F;
+    letter-spacing: 0.5px;
+}
+.card-footer{
+    font-size: 12px;
+    border-top: 1.5px solid #E5EAF0;
+    width: 100%;
+    padding-left: 16px;
+    padding-bottom: 28px;
+    color: #6C727F;
+}
+.card-footer p{
+    padding: 0px;
+    margin: 0px;
+    height: 16px;
+    line-height: 4;
+}
+.container-tags{
+    padding-bottom: 16px;
+}
+.tags {
+    font-size: 10px;
+}
+.tags-design {
+    background-color: #E6D6FC;
+    color: #883AE1;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 10px;
+    font-weight: bold;
+}
